@@ -22,11 +22,14 @@
     color: $primary
     cursor: pointer
     & a
+        color: $primary
         text-decoration: none
         transition: 0.3s
+        &:hover
+            color: $blue
     &__icon
         margin-right: 0.9rem
-        margin-bottom: -0.4rem
+        margin-bottom: -0.4rem  
 .nav
     margin-right: -4.90rem 
     &__item
@@ -55,6 +58,8 @@
         text-decoration: none
         font-size: 1.71rem
         line-height: 28.8px
+        &:hover
+            color: $blue
 .phone
     &__part
         font-weight: 300
